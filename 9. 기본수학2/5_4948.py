@@ -10,7 +10,8 @@ def isPrime(num):
 
   return True
 
-li = list(range(2, 246912))
+# 123456의 2배인 245912 사이에 있는 소수들을 다 구해서 비교
+li = list(range(2, 246912)) 
 prime_li = []
 
 for i in li:
